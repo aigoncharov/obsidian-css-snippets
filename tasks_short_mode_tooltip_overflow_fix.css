@@ -1,0 +1,5 @@
+/* Ref: https://github.com/obsidian-tasks-group/obsidian-tasks/issues/650#issuecomment-1992140823 */
+.markdown-source-view.mod-cm6 .cm-content > [contenteditable=false]:has(> .block-language-tasks) {
+  contain: layout !important;
+  overflow: visible;
+}
